@@ -32,8 +32,8 @@
             <mxPoint x="570" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gdwnWHyh305MPsIM1vQw-4" value="这个可能可以不用预先定义出预设的方向，把栅格定义成一个球，每次点打进来到对应的方向，那球面上" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="487.5" y="350" width="172.5" height="40" as="geometry" />
+        <mxCell id="gdwnWHyh305MPsIM1vQw-4" value="这个可能可以不用预先定义出预设的方向，把栅格定义成一个球，每次点打进来到对应的方向，那球面上对应的区域就像墨水一样，从打的点的方向对应的球面上的位置呈圆形扩散开来" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="478.75" y="350" width="271.25" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
