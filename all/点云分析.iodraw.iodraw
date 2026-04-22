@@ -26,11 +26,14 @@
         <mxCell id="gdwnWHyh305MPsIM1vQw-1" value="近似不确定性，即离历史观测方向越远的未观测方向，收益越高，对于复杂度大的栅格，赋予他更比其他一般栅格更高的分数，引导不同位置视点靠近这个方向去看" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="457" y="495" width="256" height="125" as="geometry" />
         </mxCell>
-        <mxCell id="gdwnWHyh305MPsIM1vQw-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="gdwnWHyh305MPsIM1vQw-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="ZTYk_CZrDKsJKDjI9hZA-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="530" as="sourcePoint" />
-            <mxPoint x="530" y="480" as="targetPoint" />
+            <mxPoint x="585" y="400" as="sourcePoint" />
+            <mxPoint x="570" y="310" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="gdwnWHyh305MPsIM1vQw-4" value="这个可能可以不用预先定义出预设的方向，把栅格定义成一个球，每次点打进来到对应的方向，那球面上" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="487.5" y="350" width="172.5" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
