@@ -1,9 +1,12 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0" version="24.7.17">
   <diagram name="第 1 页" id="FNKkXBCGHCdn67gj08lA">
-    <mxGraphModel dx="1044" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1262" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gdwnWHyh305MPsIM1vQw-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="300" width="700" height="320" as="geometry" />
+        </mxCell>
         <mxCell id="ZTYk_CZrDKsJKDjI9hZA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZTYk_CZrDKsJKDjI9hZA-1" edge="1" target="ZTYk_CZrDKsJKDjI9hZA-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="310" y="470" as="targetPoint" />
@@ -20,9 +23,9 @@
         <mxCell id="ZTYk_CZrDKsJKDjI9hZA-3" value="多方向赋初始观测值" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="450" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gdwnWHyh305MPsIM1vQw-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZTYk_CZrDKsJKDjI9hZA-5" target="gdwnWHyh305MPsIM1vQw-6">
+        <mxCell id="gdwnWHyh305MPsIM1vQw-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZTYk_CZrDKsJKDjI9hZA-5">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="749.9999999999998" y="470.1379310344828" as="targetPoint" />
+            <mxPoint x="840" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZTYk_CZrDKsJKDjI9hZA-5" value="&lt;div align=&quot;center&quot;&gt;统计已观测方向对于已观测方向越远的方向观测值越高&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
@@ -40,11 +43,14 @@
         <mxCell id="gdwnWHyh305MPsIM1vQw-4" value="这个可能可以不用预先定义出预设的方向，把栅格定义成一个球，每次点打进来到对应的方向，那球面上对应的区域就像墨水一样，从打的点的方向对应的球面上的位置呈圆形扩散开来，通过点云近似高斯训练中把图像投射到高斯椭球上的操作" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="449.38" y="330" width="271.25" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="gdwnWHyh305MPsIM1vQw-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="260" width="690" height="360" as="geometry" />
+        <mxCell id="gdwnWHyh305MPsIM1vQw-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="470.3333333333335" as="targetPoint" />
+            <mxPoint x="960" y="470" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="gdwnWHyh305MPsIM1vQw-6" value="基于mesh的视点生成" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="440" width="120" height="60" as="geometry" />
+        <mxCell id="gdwnWHyh305MPsIM1vQw-8" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;点云分析&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="310" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
