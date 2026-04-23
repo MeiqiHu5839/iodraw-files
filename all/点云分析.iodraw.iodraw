@@ -1,70 +1,70 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0" version="24.7.17">
   <diagram name="第 1 页" id="FNKkXBCGHCdn67gj08lA">
-    <mxGraphModel dx="1044" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1228" dy="78" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="gdwnWHyh305MPsIM1vQw-12" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="810" y="300" width="470" height="320" as="geometry" />
+          <mxGeometry x="890" y="425" width="470" height="320" as="geometry" />
         </mxCell>
         <mxCell id="gdwnWHyh305MPsIM1vQw-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="300" width="700" height="320" as="geometry" />
+          <mxGeometry x="160" y="425" width="700" height="320" as="geometry" />
         </mxCell>
         <mxCell id="ZTYk_CZrDKsJKDjI9hZA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZTYk_CZrDKsJKDjI9hZA-1" edge="1" target="ZTYk_CZrDKsJKDjI9hZA-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="310" y="470" as="targetPoint" />
+            <mxPoint x="390" y="595" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZTYk_CZrDKsJKDjI9hZA-1" value="&lt;div&gt;栅格复杂度分析&lt;/div&gt;&lt;div&gt;（局部梯度计算）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="110" y="450" width="110" height="40" as="geometry" />
+          <mxGeometry x="190" y="575" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZTYk_CZrDKsJKDjI9hZA-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZTYk_CZrDKsJKDjI9hZA-3" edge="1" target="ZTYk_CZrDKsJKDjI9hZA-5">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="460" y="470" as="targetPoint" />
+            <mxPoint x="540" y="595" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZTYk_CZrDKsJKDjI9hZA-3" value="多方向赋初始观测值" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="450" width="100" height="40" as="geometry" />
+          <mxGeometry x="400" y="575" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gdwnWHyh305MPsIM1vQw-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZTYk_CZrDKsJKDjI9hZA-5" target="gdwnWHyh305MPsIM1vQw-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="749.9999999999998" y="470.1379310344828" as="targetPoint" />
+            <mxPoint x="829.9999999999998" y="595.1379310344828" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZTYk_CZrDKsJKDjI9hZA-5" value="&lt;div align=&quot;center&quot;&gt;统计已观测方向对于已观测方向越远的方向观测值越高&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="510" y="445" width="150" height="50" as="geometry" />
+          <mxGeometry x="590" y="570" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gdwnWHyh305MPsIM1vQw-1" value="近似不确定性，即离历史观测方向越远的未观测方向，收益越高，对于复杂度大的栅格，赋予他更比其他一般栅格更高的分数，引导不同位置视点靠近这个方向去看" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="457" y="495" width="256" height="125" as="geometry" />
+          <mxGeometry x="537" y="620" width="256" height="125" as="geometry" />
         </mxCell>
         <mxCell id="gdwnWHyh305MPsIM1vQw-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="ZTYk_CZrDKsJKDjI9hZA-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="585" y="400" as="sourcePoint" />
-            <mxPoint x="570" y="310" as="targetPoint" />
+            <mxPoint x="665" y="525" as="sourcePoint" />
+            <mxPoint x="650" y="435" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gdwnWHyh305MPsIM1vQw-4" value="这个可能可以不用预先定义出预设的方向，把栅格定义成一个球，每次点打进来到对应的方向，那球面上对应的区域就像墨水一样，从打的点的方向对应的球面上的位置呈圆形扩散开来，通过点云近似高斯训练中把图像投射到高斯椭球上的操作" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="449.38" y="330" width="271.25" height="70" as="geometry" />
+          <mxGeometry x="529.38" y="455" width="271.25" height="70" as="geometry" />
         </mxCell>
         <mxCell id="gdwnWHyh305MPsIM1vQw-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="gdwnWHyh305MPsIM1vQw-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1040" y="470.3333333333335" as="targetPoint" />
+            <mxPoint x="1120" y="595.3333333333335" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gdwnWHyh305MPsIM1vQw-6" value="基于mesh的视点生成" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="440" width="120" height="60" as="geometry" />
+          <mxGeometry x="920" y="565" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gdwnWHyh305MPsIM1vQw-8" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;点云分析&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="310" width="130" height="30" as="geometry" />
+          <mxGeometry x="170" y="435" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gdwnWHyh305MPsIM1vQw-10" value="初始化视点方向都为朝向生成所参照的面，然后动态调整视点方向" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="440" width="130" height="60" as="geometry" />
+          <mxGeometry x="1120" y="565" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gdwnWHyh305MPsIM1vQw-11" value="考虑两个因素，一个是能观测到多少面（这个可能会面临生成面不准确，比如物体的交界处会出现很多细小的面），一个是观测的不确定性增加有多大" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1011.25" y="505" width="177.5" height="80" as="geometry" />
+          <mxGeometry x="1091.25" y="630" width="177.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gdwnWHyh305MPsIM1vQw-13" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;视点选择&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="835" y="310" width="130" height="30" as="geometry" />
+          <mxGeometry x="915" y="435" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
